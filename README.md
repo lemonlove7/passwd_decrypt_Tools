@@ -181,5 +181,17 @@ Java -jar 01-ncDatabase.jar
 ```
 
 
+## druid-decrypter
+
+druid-decrypter是一款用于解密druid加密过的数据库连接密码的woodpecker插件。目前支持druid < 1.0.16和>= 1.0.16两个版本范围的解密。
+woodpecker：https://github.com/woodpecker-framework/woodpecker-framework-release
+
+### 演示
+< 1.0.16
+![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/50442a31-2e3b-4bd7-b48e-5805541fbc5a)
+
+>= 1.0.16
+![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/addd9ee0-dbed-46ee-afd5-47b4117911c9)
+
 
 
