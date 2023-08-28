@@ -22,3 +22,41 @@ PS: 如果遇到密文倒数第二位有斜杠的话，请先删除斜杠再尝�
 如有webshell可进行在线解密 把weblogicdecryptor.jsp放入服务器进行访问，s="" 中填写 weblogic 的加密密码，可在 boot.properties 文件中找到。默认路径为../../../Server/security/boot.properties
 
 ![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/bef259c2-c957-4bba-bf3f-f810837a388c)
+
+
+## Sunflower_get_Password
+
+https://github.com/wafinfo/Sunflower_get_Password
+一款针对向日葵的识别码和验证码提取工具
+本工具使用Python3语言开发
+```
+ pip3 install unicorn
+```
+### 使用流程介绍
+
+第一步：读取向日葵配置文件路径，分别提取config.ini参数里面encry_pwd(本机验证码)。
+
+fastcode(本机识别码)[注意faskcode值第一个英文字母不要只需要后面数字即可]的值为明文保存所以不需要解密
+
+第二步：把ini参数里面encry_pwd值复制出来本机直接运行SunDecrypt.py输入需要解密encry_pwd值即可输出解密后的值。
+
+向日葵默认配置文件路径:
+
+安装版：C:\Program Files\Oray\SunLogin\SunloginClient\config.ini
+
+便携版(绿色版)：C:\ProgramData\Oray\SunloginClient\config.ini
+
+有些版本密码已经不在配置文件中但是可以通过注册表进行查询,目前解密脚本仍可以用
+```
+reg query HKEY_USERS\.DEFAULT\Software\Oray\SunLogin\SunloginClient\SunloginInfo
+
+reg query HKEY_USERS\.DEFAULT\Software\Oray\SunLogin\SunloginClient\SunloginGreenInfo
+```
+![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/b6ecb4f3-03bc-4198-8673-bbfdb35f21ad)
+
+
+![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/74a40177-98f7-435e-a01c-6a5f22cb6218)
+
+![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/8f37c6cd-6af3-45e5-b0bf-4011c0556a6d)
+
+
