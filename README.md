@@ -155,7 +155,9 @@ execute-assembly /path/to/SharpXDecrypt.exe  "C:\Users\asus\Documents\NetSarang 
 ```
 
 ## SecureCRT产品密码解密
+
 https://github.com/fengchenzxc/SecureCRTdecrypt
+
 SecureCRT批量解密工具 by fengchen
 ```
 python3 securecrtdecryptV2.py -v 2 -p "" -f "/private/tmp/tmp" -s ini
@@ -186,6 +188,8 @@ Java -jar 01-ncDatabase.jar
 ## druid-decrypter
 
 druid-decrypter是一款用于解密druid加密过的数据库连接密码的woodpecker插件。目前支持druid < 1.0.16和>= 1.0.16两个版本范围的解密。
+
+https://github.com/woodpecker-appstore/druid-decrypter
 
 woodpecker：https://github.com/woodpecker-framework/woodpecker-framework-release
 
