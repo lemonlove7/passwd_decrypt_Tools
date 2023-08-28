@@ -27,6 +27,7 @@ PS: 如果遇到密文倒数第二位有斜杠的话，请先删除斜杠再尝�
 ## Sunflower_get_Password
 
 https://github.com/wafinfo/Sunflower_get_Password
+
 一款针对向日葵的识别码和验证码提取工具
 本工具使用Python3语言开发
 ```
@@ -79,6 +80,7 @@ Hikvision ivms-8700
 
 
 ## Xshell_password_decrypt
+
 https://github.com/JDArmy/SharpXDecrypt
 ### 使用方法
 自动寻找session路径
@@ -184,6 +186,7 @@ Java -jar 01-ncDatabase.jar
 ## druid-decrypter
 
 druid-decrypter是一款用于解密druid加密过的数据库连接密码的woodpecker插件。目前支持druid < 1.0.16和>= 1.0.16两个版本范围的解密。
+
 woodpecker：https://github.com/woodpecker-framework/woodpecker-framework-release
 
 ### 演示
@@ -192,6 +195,38 @@ woodpecker：https://github.com/woodpecker-framework/woodpecker-framework-releas
 
 >= 1.0.16
 ![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/addd9ee0-dbed-46ee-afd5-47b4117911c9)
+
+## DBeaver-decrypter 
+是一款用于解密DBeaver数据库软件保存的密码的 woodpecker 插件
+
+https://github.com/yuyan-sec/DBeaver-decrypter
+
+woodpecker：https://github.com/woodpecker-framework/woodpecker-framework-release
+
+### 演示
+Windows 默认配置
+```
+ 密码文件：
+ C:\Users\Administrator\AppData\Roaming\DBeaverData\workspace6\General.dbeaver\credentials-config.json
+
+ 连接信息：
+ C:\Users\Administrator\AppData\Roaming\DBeaverData\workspace6\General.dbeaver\data-sources.json
+```
+MacOS 默认配置
+```
+/Users/<hostname>/Library/DBeaverData/workspace6/General/.dbeaver/credentials-config.json
+/Users/<hostname>/Library/DBeaverData/workspace6/General/.dbeaver/data-sources.json
+```
+Linux 默认配置
+```
+/home/<hostname>/.local/share/DBeaverData/workspace6/General/.dbeaver/credentials-config.json
+/home/<hostname>/.local/share/DBeaverData/workspace6/General/.dbeaver/data-sources.json
+```
+![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/f843638c-6ef3-4dba-9830-09025f645611)
+
+
+
+
 
 
 
