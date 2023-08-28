@@ -1,0 +1,1 @@
+druid-decrypter是一款用于解密druid加密过的数据库连接密码的woodpecker插件。目前支持druid < 1.0.16和>= 1.0.16两个版本范围的解密。
