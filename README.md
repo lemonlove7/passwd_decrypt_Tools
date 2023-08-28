@@ -79,6 +79,7 @@ Hikvision ivms-8700
 
 
 ## Xshell_password_decrypt
+https://github.com/JDArmy/SharpXDecrypt
 ### 使用方法
 自动寻找session路径
 ```
