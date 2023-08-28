@@ -60,3 +60,12 @@ reg query HKEY_USERS\.DEFAULT\Software\Oray\SunLogin\SunloginClient\SunloginGree
 ![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/8f37c6cd-6af3-45e5-b0bf-4011c0556a6d)
 
 
+## 帆软/致远密码解密工具
+
+https://github.com/Rvn0xsy/PassDecode-jar
+
+![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/b9600117-ee9b-4fc8-8dd5-d0ca3007aa7b)
+
+
+
+
