@@ -66,6 +66,18 @@ https://github.com/Rvn0xsy/PassDecode-jar
 
 ![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/b9600117-ee9b-4fc8-8dd5-d0ca3007aa7b)
 
+## Hikvision数据库账号解密
+
+### 适用版本
+Hikvision ivms-8700
+
+### 使用教程
+找到数据库配置文件，如图：
+![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/3b2b093c-9366-47db-88e9-fbdb08310f4a)
+然后java -jar HikvisionDecode-1.0-SNAPSHOT.jar xxxxx 输入加密的账号和密码，如图:
+![image](https://github.com/lemonlove7/passwd_decrypt_Tools/assets/56328995/4f0fe31c-aabf-4efa-b162-bcca09fc266a)
+
+
 
 
 
